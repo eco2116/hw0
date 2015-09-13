@@ -11,4 +11,5 @@ with open('iowa-liquor-sample.csv') as csvfile:
 		for entry in row:
 			if 'single malt scotch' in entry.lower():
 				i += 1
+				break
 print i
